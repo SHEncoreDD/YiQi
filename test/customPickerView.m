@@ -37,7 +37,7 @@
     _pickerView.dataSource = self;
     _pickerView.delegate = self;
     
-    self.frame = CGRectMake(0, 263, 320, 256);
+    self.frame = CGRectMake(0, 312, 320, 256);
     self.backgroundColor = [UIColor lightGrayColor];
     [self addSubview:_confirmButton];
     [self addSubview:_pickerView];
